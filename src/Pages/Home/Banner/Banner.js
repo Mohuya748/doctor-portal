@@ -1,7 +1,8 @@
 import React from 'react';
 import chair from '../../../assets/images/chair.png'
+import Button from '../../Shared/Button';
 
-const Banner = () => {
+const Banner = () => { 
     return (
         <div>
             <div class="hero min-h-screen">
@@ -10,7 +11,7 @@ const Banner = () => {
                     <div>
                         <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
                         <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary text-white uppercase font-bold bg-gradient-to-r from-secondary to-primary">Get Started</button>
+                        <Button>Get Started</Button>
                     </div>
                 </div>
             </div>
