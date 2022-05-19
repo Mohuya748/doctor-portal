@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer/Footer';
 import Banner from './Banner/Banner';
 import ContactForm from './ContactForm/ContactForm';
 import DentalCare from './DentalCare/DentalCare';
@@ -10,7 +11,7 @@ import Services from './Services/Sevices';
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div>
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
@@ -18,6 +19,9 @@ const Home = () => {
             <MakeAppointment></MakeAppointment>
             <Reviews></Reviews>
             <ContactForm></ContactForm>
+            <Footer></Footer>
+         
+
         </div>
     );
 };
