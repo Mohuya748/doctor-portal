@@ -7,7 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
-    const { register, formState: { errors }, handleSubmit } = useForm();
+    const { register, htmlFormState: { errors }, handleSubmit } = useForm();
     const [
         createUserWithEmailAndPassword,
         user,
